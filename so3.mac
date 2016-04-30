@@ -1,0 +1,24 @@
+
+load(ctensor)$
+load(linearalgebra)$
+load(eigen)$
+load(orthopoly)$
+load(scifac)$
+
+init_ctensor()$
+
+dim : 4$
+cframe_flag : true$
+
+ : covect( [
+            matrix( [1, 0] , [0, -1] ),
+            matrix( [0, 1] , [1,  0] ),
+            matrix( [0, i] , [-i, 0] )
+        ]);
+
+covect( [
+            matrix( [1, 0] , [0, -1] ),
+            matrix( [0, 1] , [1,  0] ),
+            matrix( [0, i] , [-i, 0] )
+        ])$
+
